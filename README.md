@@ -46,7 +46,7 @@ void main() {
 #### To add Multiple values :
 ```
   void main() {
-    List name = ["Jaynesh", "A", "B", "C"];
+    List name = ["Ankit", "A", "B", "C"];
   
     print(name[0]);
   
