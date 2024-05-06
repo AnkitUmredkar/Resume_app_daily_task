@@ -1,5 +1,5 @@
 # What is List and Map ?
-## *List  (fixed-length & growable) :
+## ⚫ List  (fixed-length & growable) :
 
 - ```List is collection of multiple values which can have multiple datatype.``` 
 - List is an ordered collection of values, which contains index values to access it's inner attributes.
@@ -143,7 +143,7 @@ void main() {
 }
 ```
 
-## *Generics   
+## ⚫ Generics   
 
 - Generics will be used to fix the datatype in the list.
 - fix any one data type in the collection data types.
@@ -170,7 +170,7 @@ import 'dart:io';
     print(name);
   }
 ```
-## *Map
+## ⚫ Map
 
 - ```Map is collection of values. Map is store data in key value pair. which can have different datatype.``` 
 - Map can be created using '{}'.
