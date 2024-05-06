@@ -1,4 +1,3 @@
-
 # What is List and Map ?
 ## List  (fixed-length & growable) :
 
