@@ -237,7 +237,7 @@ void main() {
 <h1 align = "left"></h1>
 
 # Status Bar
-## In Build Context
+## In Build Context : 
 ```
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -254,7 +254,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-## In AppBar
+## In AppBar :
 ```
 appBar: AppBar(
         backgroundColor: Colors.blueAccent,
