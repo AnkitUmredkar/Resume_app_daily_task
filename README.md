@@ -233,3 +233,34 @@ void main() {
   });
 }
 ```
+###
+<h1 align = "left"></h1>
+
+# Status Bar
+## In Build Context
+```
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(
+      const SystemUiOverlayStyle(statusBarColor: Colors.green),
+    );
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+    );
+  }
+}
+```
+
+## In AppBar
+```
+appBar: AppBar(
+        backgroundColor: Colors.blueAccent,
+        toolbarHeight: 80,
+        systemOverlayStyle: const SystemUiOverlayStyle(
+          statusBarColor: Colors.green
+        )
+      ),
+```
