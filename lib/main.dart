@@ -14,6 +14,9 @@ class MyApp extends StatelessWidget {
     SystemChrome.setSystemUIOverlayStyle(
       const SystemUiOverlayStyle(statusBarColor: Colors.green),
     );
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeLeft,
+    ]);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: AppRoutes.routes,
