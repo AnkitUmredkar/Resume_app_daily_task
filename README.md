@@ -1,4 +1,4 @@
-<h1 align="center"> 🔶🔸6.1 List of Map & 6.2 Status Bar & Device Orientation 🔸🔶 </h1>
+<h1 align="center"> 🔶🔸6.1 List of Map 🔸🔶 </h1>
 
 ###
 
@@ -243,6 +243,7 @@ void main() {
 ```
 ###
 <h1 align = "left"></h1>
+<h1 align="center"> 🔶🔸 6.2 Status Bar & Device Orientation 🔸🔶 </h1>
 
 # Status Bar
 ## In Build Context (Global) : 
