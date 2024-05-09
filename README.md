@@ -1,11 +1,5 @@
 <h1 align="center"> 🔶🔸 Login Page UI 🔸🔶 </h1>
 
-<div align = "center">
-  <img align = "left" height="550" src="https://github.com/AnkitUmredkar/Time_Daily_Task/assets/149374001/3178c2a8-d99d-45b1-a2a2-027bb0ce1775"/>
-  <img height="550" src="https://github.com/AnkitUmredkar/Time_Daily_Task/assets/149374001/2c7b9a6a-71a4-46c3-845e-bfbee3df5185"/>
-  <img align = "right" height="550" src="https://github.com/AnkitUmredkar/Time_Daily_Task/assets/149374001/ee273a92-e542-4df3-bdb4-4089c42e27d5"/>
-</div>
-
 ###
 
 <h1 align="left"> </h1>
@@ -13,8 +7,9 @@
 ###
 
 <div align = "center">
-  <img align = "left" height="550" src="https://github.com/AnkitUmredkar/Time_Daily_Task/assets/149374001/3178c2a8-d99d-45b1-a2a2-027bb0ce1775"/>
-  <img height="550" src="https://github.com/AnkitUmredkar/Time_Daily_Task/assets/149374001/2c7b9a6a-71a4-46c3-845e-bfbee3df5185"/>
+  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/3a3c7dad-7b2f-4d6c-9619-555ad558ff13"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/ca684736-ffb5-4cbb-9283-4bf0688061a5"/>
 </div>
 
 <div align = "center">
