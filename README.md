@@ -13,7 +13,6 @@
 </div>
 
 <div align = "center">
-  <video height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/12bfcc8e-2621-4d2d-980a-7c2f940d940a"/>
 </div>
 
 
