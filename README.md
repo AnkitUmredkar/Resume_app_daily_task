@@ -296,11 +296,6 @@ class MyApp extends StatelessWidget {
 
 <h1 align="center"> 🔶🔸Drawer Example 🔸🔶 </h1>
 
-###
-
-<h1 align="left"> </h1>
-
-###
 
 <div align = "center">
   <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/7ed1d8d6-4234-4db8-8dad-d9411d1440db"/>
