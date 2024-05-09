@@ -264,3 +264,24 @@ appBar: AppBar(
         )
       ),
 ```
+
+# Device Orientation :
+```
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(
+      const SystemUiOverlayStyle(statusBarColor: Colors.green),
+    );
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeLeft,
+    ]);
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      routes: AppRoutes.routes,
+    );
+  }
+}
+```
