@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.blueAccent,
         toolbarHeight: 80,
         systemOverlayStyle:
-            const SystemUiOverlayStyle(statusBarColor: Colors.green),
+            const SystemUiOverlayStyle(statusBarColor: Colors.black),
       ),
     );
   }
