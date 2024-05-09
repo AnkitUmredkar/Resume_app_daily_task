@@ -1,11 +1,5 @@
 <h1 align="center"> 🔶🔸6.1 List of Map 🔸🔶 </h1>
 
-###
-
-<h1 align="left"> </h1>
-
-###
-
 # What is List and Map ?
 ## ⚫ List  (fixed-length & growable) :
 
