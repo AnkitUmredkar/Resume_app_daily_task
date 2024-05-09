@@ -1,3 +1,33 @@
+<h1 align="center"> 🔶🔸 Login Page UI 🔸🔶 </h1>
+
+<div align = "center">
+  <img align = "left" height="550" src="https://github.com/AnkitUmredkar/Time_Daily_Task/assets/149374001/3178c2a8-d99d-45b1-a2a2-027bb0ce1775"/>
+  <img height="550" src="https://github.com/AnkitUmredkar/Time_Daily_Task/assets/149374001/2c7b9a6a-71a4-46c3-845e-bfbee3df5185"/>
+  <img align = "right" height="550" src="https://github.com/AnkitUmredkar/Time_Daily_Task/assets/149374001/ee273a92-e542-4df3-bdb4-4089c42e27d5"/>
+</div>
+
+###
+
+<h1 align="left"> </h1>
+
+###
+
+<div align = "center">
+  <img align = "left" height="550" src="https://github.com/AnkitUmredkar/Time_Daily_Task/assets/149374001/3178c2a8-d99d-45b1-a2a2-027bb0ce1775"/>
+  <img height="550" src="https://github.com/AnkitUmredkar/Time_Daily_Task/assets/149374001/2c7b9a6a-71a4-46c3-845e-bfbee3df5185"/>
+</div>
+
+<div align = "center">
+  <video height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/12bfcc8e-2621-4d2d-980a-7c2f940d940a"/>
+</div>
+
+
+###
+
+<h1 align="left"> </h1>
+
+###
+
 # What is List and Map ?
 ## ⚫ List  (fixed-length & growable) :
 
