@@ -306,14 +306,9 @@ class MyApp extends StatelessWidget {
 
 ###
 <h1 align = "left"></h1>
-###
-
 <h1 align="center"> 🔶🔸6.3 Login Page UI 🔸🔶 </h1>
 
-###
-
 <h1 align="left"> </h1>
-
 ###
 
 <div align = "center">
