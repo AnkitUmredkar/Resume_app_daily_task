@@ -308,9 +308,6 @@ class MyApp extends StatelessWidget {
 <h1 align = "left"></h1>
 <h1 align="center"> 🔶🔸6.3 Login Page UI 🔸🔶 </h1>
 
-<h1 align="left"> </h1>
-###
-
 <div align = "center">
   <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/3a3c7dad-7b2f-4d6c-9619-555ad558ff13"/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
