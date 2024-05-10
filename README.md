@@ -304,7 +304,7 @@ class MyApp extends StatelessWidget {
 <a  href="https://github.com/AnkitUmredkar/Resume_app_daily_task/blob/master/lib/Daily_Task/drawer.dart">-> 📂 Go To Dart File 📂<-</a>
 </div>
 
-###
+
 <h1 align = "left"></h1>
 <h1 align="center"> 🔶🔸6.3 Login Page UI 🔸🔶 </h1>
 
@@ -320,6 +320,10 @@ class MyApp extends StatelessWidget {
 
 <div align = "center">
 <a  href="https://github.com/AnkitUmredkar/Resume_app_daily_task/tree/master/lib/Screen/LoginPage">-> 📂 Go To Dart File 📂<-</a>
+</div>
+
+<div>
+  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/d4838e34-a73a-4552-bbcf-5b0e59c37470"/>
 </div>
 
 ###
