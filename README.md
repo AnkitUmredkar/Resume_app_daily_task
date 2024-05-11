@@ -304,7 +304,6 @@ class MyApp extends StatelessWidget {
 <a  href="https://github.com/AnkitUmredkar/Resume_app_daily_task/blob/master/lib/Daily_Task/drawer.dart">-> 📂 Go To Dart File 📂<-</a>
 </div>
 
-
 <h1 align = "left"></h1>
 <h1 align="center"> 🔶🔸6.3 Login Page UI 🔸🔶 </h1>
 
@@ -322,8 +321,17 @@ class MyApp extends StatelessWidget {
 <a  href="https://github.com/AnkitUmredkar/Resume_app_daily_task/tree/master/lib/Screen/LoginPage">-> 📂 Go To Dart File 📂<-</a>
 </div>
 
+###
+
+<h1 align="left"> </h1>
+
+###
+
+<h1 align="center"> 🔶🔸 6.4 Google Login Page With Validation 🔸🔶 </h1>
+
+
 <div>
-  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/d4838e34-a73a-4552-bbcf-5b0e59c37470"/>
+  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/65639292-7230-46cc-bf45-cc6f9cf95f1c"/>
 </div>
 
 ###
@@ -331,3 +339,40 @@ class MyApp extends StatelessWidget {
 <h1 align="left"> </h1>
 
 ###
+
+<div>
+  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/8a7aeca1-7ec8-451a-8cc6-fb02066cf8e2"/>
+</div>
+
+###
+
+<h1 align="left"> </h1>
+
+###
+
+
+<div>
+  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/78908c3e-8ccb-4504-8073-5ba9a886c5d0"/>
+</div>
+
+###
+
+<h1 align="left"> </h1>
+
+###
+
+
+<div align = "center">
+  <video src = "https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/25534d7e-23bc-4046-aede-d289122257de"></video>
+</div>
+
+<div align = "center">
+<a  href="https://github.com/AnkitUmredkar/Resume_app_daily_task/tree/master/lib/Screen/Google_Login_Page">-> 📂 Go To Dart File 📂<-</a>
+</div>
+
+###
+
+<h1 align="left"> </h1>
+
+###
+
