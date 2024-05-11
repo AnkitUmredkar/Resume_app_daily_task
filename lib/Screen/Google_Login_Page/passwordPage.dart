@@ -108,7 +108,7 @@ class _PassWordPageState extends State<PassWordPage> {
                             } else if (value.contains(' ')) {
                               return 'Space is not Allow !';
                             } else if (value.length <= 8) {
-                              return 'Enter valid Password';
+                              return 'Password length must be greater then 8';
                             }
 
                             for (int i = 0; i < value.length; i++) {
