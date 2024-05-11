@@ -130,13 +130,13 @@ Widget buildListTile(var icon, String data, bool click) {
     child: ListTile(
       leading: Icon(
         icon,
-        color: (click)? const Color(0xFFE49486) : const Color(0xFFEEF0F3),
+        color: (click) ? const Color(0xFFE49486) : const Color(0xFFEEF0F3),
         size: 28,
       ),
       title: Text(
         data,
         style: TextStyle(
-            color: (click)? const Color(0xFFE49486) : const Color(0xFFEEF0F3),
+            color: (click) ? const Color(0xFFE49486) : const Color(0xFFEEF0F3),
             fontWeight: FontWeight.bold,
             fontFamily: 'poppins'),
       ),
