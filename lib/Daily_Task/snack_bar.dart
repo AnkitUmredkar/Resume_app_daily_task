@@ -12,6 +12,15 @@ class _snackBarState extends State<snackBar> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.blue,
+          title: const Text(
+            'SnackBar',
+            style: TextStyle(color: Colors.white, fontSize: 28),
+          ),
+          centerTitle: true,
+          toolbarHeight: 80,
+        ),
         body: Center(
           child: ElevatedButton(
             style: const ButtonStyle(
@@ -30,7 +39,10 @@ class _snackBarState extends State<snackBar> {
             },
             child: const Text(
               'Click Here To Show SnackBar',
-              style: TextStyle(color: Colors.teal),
+              style: TextStyle(
+                color: Colors.teal,
+                fontSize: 18,
+              ),
             ),
           ),
         ),
