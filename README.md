@@ -379,12 +379,12 @@ class MyApp extends StatelessWidget {
 <h1 align="center"> 🔶🔸 Snack Bar 🔸🔶 </h1>
 
 <div align="center">
-  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/762102f4-b82c-4ee7-9cdd-8bb95e9aa957"/>
+  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/8d3b7763-8a8e-4f50-8787-c120b0625ceb"/>
 </div>
 
 <h1 align="left"> </h1>
 <div align = "center">
-  <video src = "https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/cf6c0dc4-270f-426e-9a27-1f0bf6064c90"></video>
+  <video src = "https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/da23ffab-d16b-4ba1-aad1-51147bd03666"></video>
 </div>
 
 <div align = "center">
