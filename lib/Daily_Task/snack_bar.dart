@@ -15,21 +15,27 @@ class _snackBarState extends State<snackBar> {
         appBar: AppBar(
           backgroundColor: Colors.blue,
           title: const Text(
-            'SnackBar',
-            style: TextStyle(color: Colors.white, fontSize: 28),
+            'SnackBar Example',
+            style: TextStyle(color: Colors.white, fontSize: 25),
           ),
           centerTitle: true,
           toolbarHeight: 80,
         ),
         body: Center(
           child: ElevatedButton(
-            style: const ButtonStyle(
-              backgroundColor: MaterialStatePropertyAll(Colors.black),
+            style: ElevatedButton.styleFrom(
+              minimumSize: const Size(300, 60),
+              backgroundColor: Colors.black,
+              padding: const EdgeInsets.all(16),
             ),
             onPressed: () {
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
-                  content: const Text('SnackBar is Here'),
+                  behavior: SnackBarBehavior.floating,
+                  content: const Text(
+                    'SnackBar is Here',
+                    style: TextStyle(fontSize: 17),
+                  ),
                   action: SnackBarAction(
                     label: 'Retry',
                     onPressed: () {},
@@ -38,7 +44,7 @@ class _snackBarState extends State<snackBar> {
               );
             },
             child: const Text(
-              'Click Here To Show SnackBar',
+              'Click Here to Show SnackBar',
               style: TextStyle(
                 color: Colors.teal,
                 fontSize: 18,
