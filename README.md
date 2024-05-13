@@ -378,7 +378,7 @@ class MyApp extends StatelessWidget {
 
 <h1 align="center"> 🔶🔸 Snack Bar 🔸🔶 </h1>
 
-<div>
+<div align="center">
   <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/762102f4-b82c-4ee7-9cdd-8bb95e9aa957"/>
 </div>
 
