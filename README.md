@@ -1,4 +1,4 @@
-<h1 align="center"> 🔶🔸6.1 List of Map 🔸🔶 </h1>
+[video.webm](https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/9179770c-6f0d-4693-af6a-80219a6954a4)![img](https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/144d4949-86cc-4fb3-aae3-41dca9da561b)<h1 align="center"> 🔶🔸6.1 List of Map 🔸🔶 </h1>
 
 # What is List and Map ?
 ## ⚫ List  (fixed-length & growable) :
@@ -368,6 +368,27 @@ class MyApp extends StatelessWidget {
 
 <div align = "center">
 <a  href="https://github.com/AnkitUmredkar/Resume_app_daily_task/tree/master/lib/Screen/Google_Login_Page">-> 📂 Go To Dart File 📂<-</a>
+</div>
+
+###
+
+<h1 align="left"> </h1>
+
+###
+
+<h1 align="center"> 🔶🔸 Snack Bar 🔸🔶 </h1>
+
+<div>
+  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/762102f4-b82c-4ee7-9cdd-8bb95e9aa957"/>
+</div>
+
+<h1 align="left"> </h1>
+<div align = "center">
+  <video src = "https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/cf6c0dc4-270f-426e-9a27-1f0bf6064c90"></video>
+</div>
+
+<div align = "center">
+<a  href="https://github.com/AnkitUmredkar/Resume_app_daily_task/blob/master/lib/Daily_Task/snack_bar.dart">-> 📂 Go To Dart File 📂<-</a>
 </div>
 
 ###
