@@ -12,7 +12,7 @@ import '../Screen/LoginPage/logoPage.dart';
 class AppRoutes {
   static Map<String, Widget Function(BuildContext)> routes = {
     //TODO Drawer
-    // '/': (context) => const DrawerExample(),
+    '/': (context) => const DrawerExample(),
 
     //TODO Login Page UI
     // '/': (context) => const LogoPage(),
