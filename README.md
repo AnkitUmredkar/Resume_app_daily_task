@@ -397,3 +397,25 @@ class MyApp extends StatelessWidget {
 
 ###
 
+<h1 align="center"> 🔶🔸 6.6 Image Picker in Flutter 🔸🔶 </h1>
+
+<div align="center">
+  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/89822fe2-29af-4b4d-a643-2ab9db3d510c"/>
+</div>
+
+<h1 align="left"> </h1>
+<div align = "center">
+  <video src = "https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/e1463d4c-641d-4c4d-b75e-b11fdff7a10a"></video>
+</div>
+
+<div align = "center">
+<a  href="https://github.com/AnkitUmredkar/Resume_app_daily_task/blob/master/lib/Daily_Task/snack_bar.dart">-> 📂 Go To Dart File 📂<-</a>
+</div>
+
+###
+
+<h1 align="left"> </h1>
+
+###
+
+
