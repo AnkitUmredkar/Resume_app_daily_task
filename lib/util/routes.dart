@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../Daily_Task/drawer.dart';
+import '../Daily_Task/image_picker.dart';
 import '../Daily_Task/snack_bar.dart';
 import '../Daily_Task/text_field.dart';
 import '../Screen/Google_Login_Page/googleLoginPage.dart';
@@ -24,6 +25,9 @@ class AppRoutes {
 
     //TODO Snack Bar
     // '/': (context) => const snackBar(),
-    '/': (context) => textfield(),
+    // '/': (context) => textfield(),
+
+    //TODO Image Picker
+    '/': (context) => const imagePicker(),
   };
 }
