@@ -8,7 +8,6 @@ bool check = false, checkEye = false;
 IconData SuffixIcon = Icons.remove_red_eye;
 int selectedIndex = -1;
 String email = '',password = '';
-
 bool checkCapital = false,
     checkSmall = false,
     checkSpeChar = false,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../Daily_Task/Registration_Form/Registration_Form.dart';
 import '../Daily_Task/drawer.dart';
 import '../Daily_Task/image_picker.dart';
 import '../Daily_Task/snack_bar.dart';
@@ -28,6 +29,10 @@ class AppRoutes {
     // '/': (context) => textfield(),
 
     //TODO Image Picker
-    '/': (context) => const imagePicker(),
+    // '/': (context) => const imagePicker(),
+
+    // TODO Image Picker
+    '/': (context) => const Registration(),
   };
 }
+//
