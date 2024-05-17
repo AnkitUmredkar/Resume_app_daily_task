@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../Daily_Task/Registration_Form/ID_Card.dart';
 import '../Daily_Task/Registration_Form/Registration_Form.dart';
 import '../Daily_Task/drawer.dart';
 import '../Daily_Task/image_picker.dart';
@@ -31,8 +32,9 @@ class AppRoutes {
     //TODO Image Picker
     // '/': (context) => const imagePicker(),
 
-    // TODO Image Picker
+    // TODO Registration Form
     '/': (context) => const Registration(),
+    '/ID Card': (context) => const IdCard(),
   };
 }
 //

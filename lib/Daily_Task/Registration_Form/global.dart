@@ -1,14 +1,25 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 
-String birthDate = '';
+String birthDate = '',gender = '',selectedGender = '',hobby = '';
+bool reading = false,writing = false,sports = false,response = true,checkGender = false;
+File? fileImage;
+ImagePicker imagePicker = ImagePicker();
 
-SizedBox name(double width, String data) {
+SizedBox name(String data,double Width,var inputType,var controllerType) {
   return SizedBox(
-    width: width / 2.25,
-    child: TextField(
+    width: Width,
+    child: TextFormField(
+      textInputAction: TextInputAction.next,
+      controller: controllerType,
+      validator: errorMsg,
+      keyboardType: inputType,
       decoration: InputDecoration(
         enabledBorder: enableBorder(),
+        focusedErrorBorder: enableBorder(),
         focusedBorder: focusBorder(),
+        errorBorder: enableBorder(),
         label: Text(
           data,
           style: const TextStyle(fontFamily: 'poppins'),
@@ -37,3 +48,10 @@ OutlineInputBorder enableBorder() {
     ),
   );
 }
+
+String? errorMsg(value) {
+  if (value!.isEmpty) {
+    return 'Field Must be Required !';
+  }
+}
+
