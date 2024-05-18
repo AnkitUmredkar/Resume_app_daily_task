@@ -56,8 +56,8 @@ class _RegistrationState extends State<Registration> {
                     margin: EdgeInsets.only(top: height * 0.255),
                     padding: const EdgeInsets.fromLTRB(15, 90, 15, 0),
                     height: (response)
-                        ? height + height * 0.06
-                        : height + height * 0.17,
+                        ? height + height * 0.25
+                        : height + height * 0.3,
                     width: width,
                     decoration: const BoxDecoration(
                       color: Colors.white,
@@ -68,7 +68,7 @@ class _RegistrationState extends State<Registration> {
                     ),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
+                      children: <Widget>[
                         const Text(
                           'Registration',
                           style: TextStyle(
@@ -273,7 +273,6 @@ class _RegistrationState extends State<Registration> {
                                             fontSize: 18))
                                   ],
                                 ),
-                                // Checkbox(value: reading, onChanged: onChanged)
                               ],
                             ),
                           ],

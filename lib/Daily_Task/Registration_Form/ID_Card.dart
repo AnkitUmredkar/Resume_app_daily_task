@@ -73,8 +73,9 @@ class _IdCardState extends State<IdCard> {
                     fontFamily: 'poppins')),
             SizedBox(height: height * 0.04),
             Expanded(
-              child: SizedBox(
-                width: width / 1.4,
+              child: Container(
+                padding: EdgeInsets.only(left: width * 0.1),
+                width: width * 0.9,
                 child: Column(
                   children: [
                     Details(' Birth Date      :  ', dateController.text),
