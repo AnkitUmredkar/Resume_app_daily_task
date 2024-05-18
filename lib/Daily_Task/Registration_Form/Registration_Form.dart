@@ -85,10 +85,10 @@ class _RegistrationState extends State<Registration> {
                         Row(
                           children: [
                             name('First Name', width / 2.25, TextInputType.name,
-                                txtName),
+                                txtName, 0),
                             const Spacer(),
                             name('Last Name', width / 2.25, TextInputType.name,
-                                txtLastName),
+                                txtLastName, 0),
                           ],
                         ),
                         SizedBox(height: height * 0.021),
@@ -161,7 +161,7 @@ class _RegistrationState extends State<Registration> {
                         SizedBox(height: height * 0.021),
                         //------------------------------------>todo Phone Number
                         name('Phone Number', width, TextInputType.number,
-                            txtMoNumber),
+                            txtMoNumber, 1),
                         SizedBox(height: height * 0.015),
                         Row(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -208,8 +208,12 @@ class _RegistrationState extends State<Registration> {
                                       onChanged: (value) {
                                         setState(() {
                                           reading = value!;
-                                          if(reading){
-                                            hobby = '$hobby ' + 'Reading\n';
+                                          if (reading == true &&
+                                              !hobby.contains('Reading')) {
+                                            hobby.add('Reading');
+                                          }
+                                          if (reading == false) {
+                                            hobby.remove('Reading');
                                           }
                                         });
                                       },
@@ -228,8 +232,12 @@ class _RegistrationState extends State<Registration> {
                                       onChanged: (value) {
                                         setState(() {
                                           writing = value!;
-                                          if(writing){
-                                            hobby = '$hobby ' + 'Writing\n';
+                                          if (writing == true &&
+                                              !hobby.contains('Writing')) {
+                                            hobby.add('Writing');
+                                          }
+                                          if (writing == false) {
+                                            hobby.remove('Writing');
                                           }
                                         });
                                       },
@@ -248,7 +256,13 @@ class _RegistrationState extends State<Registration> {
                                       onChanged: (value) {
                                         setState(() {
                                           sports = value!;
-                                          hobby = '$hobby ' + 'Sports\n';
+                                          if (sports == true &&
+                                              !hobby.contains('Sports')) {
+                                            hobby.add('Sports');
+                                          }
+                                          if (sports == false) {
+                                            hobby.remove('Sports');
+                                          }
                                         });
                                       },
                                       activeColor: const Color(0xff281537),
@@ -282,6 +296,14 @@ class _RegistrationState extends State<Registration> {
                               });
                               if (response && checkGender) {
                                 Navigator.of(context).pushNamed('/ID Card');
+                              }
+                              hobbies = '';
+                              for (int i = 0; i < hobby.length; i++) {
+                                if (hobbies == '') {
+                                  hobbies = hobbies + hobby[i];
+                                } else {
+                                  hobbies = hobbies + '\n' + hobby[i];
+                                }
                               }
                             },
                             child: Container(

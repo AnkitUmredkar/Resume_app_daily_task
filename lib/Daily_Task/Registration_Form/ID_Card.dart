@@ -1,8 +1,4 @@
-import 'dart:io';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:image_picker/image_picker.dart';
 import 'package:resume_app_daily_task/Daily_Task/Registration_Form/Registration_Form.dart';
 import 'global.dart';
 
@@ -26,7 +22,7 @@ class _IdCardState extends State<IdCard> {
             Stack(
               children: [
                 Positioned(
-                  top: -330,
+                  top: height * -0.38,
                   child: Container(
                     height: height * 0.8,
                     width: width,
@@ -77,12 +73,13 @@ class _IdCardState extends State<IdCard> {
                     fontFamily: 'poppins')),
             SizedBox(height: height * 0.04),
             Expanded(
-              child: Container(
+              child: SizedBox(
                 width: width / 1.4,
                 child: Column(
                   children: [
                     Details(' Birth Date      :  ', dateController.text),
                     Details(' Gender          :  ', selectedGender),
+                    Details(' Mo. Number  : ', txtMoNumber.text),
                     Row(
                       mainAxisSize: MainAxisSize.min,
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -94,34 +91,32 @@ class _IdCardState extends State<IdCard> {
                               fontFamily: 'poppins',
                               fontSize: 20),
                         ),
-                        Wrap(
-                          children: [
-                            Text(
-                              hobby,
-                              style: const TextStyle(
-                                  fontFamily: 'poppins', fontSize: 20),
-                            ),
-                          ],
+                        SizedBox(
+                          width: width / 2.9,
+                          child: Text(
+                            hobbies,
+                            style: const TextStyle(
+                                fontFamily: 'poppins', fontSize: 20),
+                          ),
                         ),
                         const Spacer(),
                       ],
                     ),
-                    Details(' Mo. Number  : ', txtMoNumber.text),
                     Row(
                       mainAxisSize: MainAxisSize.min,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         const Text(
-                          ' Address        ',
+                          ' Address         : ',
                           style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontFamily: 'poppins',
                               fontSize: 20),
                         ),
-                        Container(
-                          width: width / 2.7,
+                        SizedBox(
+                          width: width / 2.9,
                           child: Text(
-                            ' : ${txtAddress.text}',
+                            txtAddress.text,
                             style: const TextStyle(
                                 fontFamily: 'poppins', fontSize: 20),
                           ),
@@ -132,8 +127,7 @@ class _IdCardState extends State<IdCard> {
                   ],
                 ),
               ),
-            ),
-            // Details('Address : ',txtAddress.text),
+            ), // Details('Address : ',txtAddress.text),
           ],
         ),
       ),
@@ -155,7 +149,7 @@ Row Details(String label, var data) {
         data,
         style: const TextStyle(fontFamily: 'poppins', fontSize: 20),
       ),
-      Spacer(),
+      const Spacer(),
     ],
   );
 }
