@@ -421,7 +421,8 @@ class MyApp extends StatelessWidget {
 <h1 align="center"> 🔶🔸 6.7 Generate Dynamic Text Field 🔸🔶 </h1>
 
 <div align="center">
-  <img height="550" align="left" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/b2215a9f-7c86-43bb-9f17-0e5fa4356464"/>
+  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/b2215a9f-7c86-43bb-9f17-0e5fa4356464"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/e26b5ca6-d1ce-409d-9295-c923db8e5226"/>
 </div>
 
