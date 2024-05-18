@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import '../Daily_Task/Dynamic TextField/dynamic_TextField.dart';
+import '../Daily_Task/Dynamic TextField/show_Skills.dart';
 import '../Daily_Task/Registration_Form/ID_Card.dart';
 import '../Daily_Task/Registration_Form/Registration_Form.dart';
 import '../Daily_Task/drawer.dart';
@@ -14,7 +16,7 @@ import '../Screen/LoginPage/logoPage.dart';
 class AppRoutes {
   static Map<String, Widget Function(BuildContext)> routes = {
     //TODO Drawer
-    '/': (context) => const DrawerExample(),
+    // '/': (context) => const DrawerExample(),
 
     //TODO Login Page UI
     // '/': (context) => const LogoPage(),
@@ -33,8 +35,11 @@ class AppRoutes {
     // '/': (context) => const imagePicker(),
 
     // TODO Registration Form
-    '/': (context) => const Registration(),
-    '/ID Card': (context) => const IdCard(),
+    // '/': (context) => const Registration(),
+    // '/ID Card': (context) => const IdCard(),
+
+    // TODO Dynamic Text Field
+    '/': (context) => const DynamicTextField(),
+    '/displaySkill': (context) => const DisplaySkill(),
   };
 }
-//
