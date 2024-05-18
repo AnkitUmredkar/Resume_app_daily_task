@@ -418,4 +418,25 @@ class MyApp extends StatelessWidget {
 
 ###
 
+<h1 align="center"> 🔶🔸 6.6 ID Card's Registration Form 🔸🔶 </h1>
 
+<div align="center">
+  <img height="550" align="left" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/6b8fe021-a870-4f22-853b-6944959d7462"/>
+  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/833cd96b-2804-4377-b9f4-18554bd95422"/>
+  <img height="550"  align="right" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/59f01605-1130-4bdb-bf8d-5b9da3dc1dfb"/>
+</div>
+
+<h1 align="left"> </h1>
+<div align = "center">
+  <video src = "https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/bdbbc871-e4bf-4373-84f1-211f69ea4a8a"></video>
+</div>
+
+<div align = "center">
+<a  href="https://github.com/AnkitUmredkar/Resume_app_daily_task/tree/master/lib/Daily_Task/Registration_Form">-> 📂 Go To Dart File 📂<-</a>
+</div>
+
+###
+
+<h1 align="left"> </h1>
+
+###
