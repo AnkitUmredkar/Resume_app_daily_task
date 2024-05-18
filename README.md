@@ -418,6 +418,29 @@ class MyApp extends StatelessWidget {
 
 ###
 
+<h1 align="center"> 🔶🔸 6.6 ID Card's Registration Form 🔸🔶 </h1>
+
+<div align="center">
+  <img height="550" align="left" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/cf0b152f-b2c7-4bf8-84b6-bf4b1e8e0333"/>
+  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/6d33de65-6e5b-4765-8e1b-af4397db211f"/>
+  <img height="550"  align="right" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/a461735a-ee39-4970-a1bc-e62c2a96d137"/>
+</div>
+
+<h1 align="left"> </h1>
+<div align = "center">
+  <video src = "https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/4589d4bb-b56a-4c12-9967-aca0f74ac0fe"></video>
+</div>
+
+<div align = "center">
+<a  href="https://github.com/AnkitUmredkar/Resume_app_daily_task/tree/master/lib/Daily_Task/Registration_Form">-> 📂 Go To Dart File 📂<-</a>
+</div>
+
+###
+
+<h1 align="left"> </h1>
+
+###
+
 <h1 align="center"> 🔶🔸 6.7 Generate Dynamic Text Field 🔸🔶 </h1>
 
 <div align="center">
