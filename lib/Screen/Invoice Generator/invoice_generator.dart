@@ -7,6 +7,10 @@ TextEditingController txtName = TextEditingController();
 TextEditingController txtCategory = TextEditingController();
 TextEditingController txtPrice = TextEditingController();
 
+var c1 = txtName.clear();
+var c2 = txtCategory.clear();
+var c3 = txtPrice.clear();
+
 class InvoiceGenerator extends StatefulWidget {
   const InvoiceGenerator({super.key});
 
@@ -27,8 +31,8 @@ class _InvoiceGeneratorState extends State<InvoiceGenerator> {
             style: TextStyle(color: Colors.white, fontSize: 25),
           ),
         ),
-        body: Form(
-          key: formkey,
+        body: Padding(
+          padding: const EdgeInsets.all(8.0),
           child: Column(
             children: List.generate(
                 invoiceList.length,
@@ -54,94 +58,113 @@ class _InvoiceGeneratorState extends State<InvoiceGenerator> {
                         barrierDismissible: false,
                         context: context,
                         builder: (BuildContext context) {
-                          return SimpleDialog(
+                          return AlertDialog(
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(10),
                             ),
                             contentPadding:
-                                const EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                const EdgeInsets.fromLTRB(20, 20, 20, 0),
                             title: const Text('Add Details'),
-                            titlePadding: const EdgeInsets.all(12),
-                            children: [
-                              TextFormField(
-                                controller: txtName,
-                                validator: (value) {
-                                  if (value!.isEmpty) {
-                                    return 'Field Must Be Required';
-                                  }
-                                },
-                                decoration: InputDecoration(
-                                    border: OutlineInputBorder(
-                                      borderSide: const BorderSide(
-                                        color: Colors.grey,
-                                        width: 2,
-                                      ),
-                                      borderRadius: BorderRadius.circular(5),
+                            titlePadding:
+                                const EdgeInsets.only(left: 18, top: 12),
+                            content: Form(
+                              key: formkey,
+                              child: SingleChildScrollView(
+                                child: Column(
+                                  mainAxisSize: MainAxisSize.min,
+                                  children: [
+                                    TextFormField(
+                                      textInputAction: TextInputAction.next,
+                                      controller: txtName,
+                                      validator: (value) {
+                                        if (value!.isEmpty) {
+                                          return 'Field Must Be Required';
+                                        }
+                                      },
+                                      decoration: InputDecoration(
+                                          border: OutlineInputBorder(
+                                            borderSide: const BorderSide(
+                                              color: Colors.grey,
+                                              width: 2,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(5),
+                                          ),
+                                          label: const Text('Name')),
                                     ),
-                                    label: const Text('Name')),
-                              ),
-                              Container(
-                                margin:
-                                    const EdgeInsets.only(bottom: 20, top: 20),
-                                child: TextFormField(
-                                  controller: txtCategory,
-                                  validator: (value) {
-                                    if (value!.isEmpty) {
-                                      return 'Field Must Be Required';
-                                    }
-                                  },
-                                  decoration: InputDecoration(
-                                    border: OutlineInputBorder(
-                                      borderSide: const BorderSide(
-                                        color: Colors.grey,
-                                        width: 2,
+                                    Container(
+                                      margin: const EdgeInsets.only(
+                                          bottom: 20, top: 20),
+                                      child: TextFormField(
+                                        textInputAction: TextInputAction.next,
+                                        controller: txtCategory,
+                                        validator: (value) {
+                                          if (value!.isEmpty) {
+                                            return 'Field Must Be Required';
+                                          }
+                                        },
+                                        decoration: InputDecoration(
+                                          border: OutlineInputBorder(
+                                            borderSide: const BorderSide(
+                                              color: Colors.grey,
+                                              width: 2,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(5),
+                                          ),
+                                          label: const Text('Category'),
+                                        ),
                                       ),
-                                      borderRadius: BorderRadius.circular(5),
                                     ),
-                                    label: const Text('Category'),
-                                  ),
+                                    TextFormField(
+                                      controller: txtPrice,
+                                      keyboardType: TextInputType.number,
+                                      validator: (value) {
+                                        if (value!.isEmpty) {
+                                          return 'Field Must Be Required';
+                                        }
+                                      },
+                                      decoration: InputDecoration(
+                                          border: OutlineInputBorder(
+                                            borderSide: const BorderSide(
+                                              color: Colors.grey,
+                                              width: 2,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(5),
+                                          ),
+                                          label: const Text('Price')),
+                                    ),
+                                    const SizedBox(
+                                      height: 12,
+                                    ),
+                                  ],
                                 ),
                               ),
-                              TextFormField(
-                                controller: txtPrice,
-                                keyboardType: TextInputType.number,
-                                validator: (value) {
-                                  if (value!.isEmpty) {
-                                    return 'Field Must Be Required';
-                                  }
-                                },
-                                decoration: InputDecoration(
-                                    border: OutlineInputBorder(
-                                      borderSide: const BorderSide(
-                                        color: Colors.grey,
-                                        width: 2,
-                                      ),
-                                      borderRadius: BorderRadius.circular(5),
-                                    ),
-                                    label: const Text('Price')),
-                              ),
-                              const SizedBox(
-                                height: 10,
-                              ),
-                              Align(
-                                alignment: Alignment.centerRight,
-                                child: GestureDetector(
-                                  onTap: () {
-                                    setState(() {
-                                      if (formkey.currentState!.validate()) {
-                                        invoiceList.add(InvoiceModel(
+                            ),
+                            actions: [
+                              TextButton(
+                                onPressed: () {
+                                  setState(() {
+                                    if (formkey.currentState!.validate()) {
+                                      invoiceList.add(
+                                        InvoiceModel(
                                           name: txtName.text,
                                           category: txtCategory.text,
                                           prise: txtPrice.text,
-                                        ));
-                                      }
-                                    });
-                                    Navigator.of(context).pop();
-                                  },
-                                  child: const Text(
-                                    'OK',
-                                    style: TextStyle(color: Colors.blue),
-                                  ),
+                                        ),
+                                      );
+                                      Navigator.of(context).pop();
+                                    }
+                                  });
+                                  txtName.clear();
+                                  txtCategory.clear();
+                                  txtPrice.clear();
+                                },
+                                child: const Text(
+                                  'OK',
+                                  style: TextStyle(
+                                      color: Colors.blue, fontSize: 18),
                                 ),
                               ),
                             ],
@@ -174,27 +197,39 @@ class InvoiceModel {
 Future<Uint8List> generatePdf() {
   final pdf = pw.Document();
   pdf.addPage(pw.Page(
-    build: (context) => pw.Center(
-      child: pw.Column(children: [
-        pw.Row(
-          children: [pw.Text('Name', style: const pw.TextStyle(fontSize: 25))],
-        ),
-        pw.SizedBox(
-          height: 20,
-        ),
-        ...List.generate(
-          invoiceList.length,
-          (index) => pw.Row(
-              children: List.generate(
-            invoiceList.length,
-            (index) => pw.Text(
-              '${invoiceList[index].name}\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t ${invoiceList[index].category}\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t ${invoiceList[index].prise}',
-              style: const pw.TextStyle(fontSize: 18),
+    build: (context) => pw.Column(children: [
+      pw.Row(
+        mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
+        children: [
+          pw.Text('Name', style: const pw.TextStyle(fontSize: 28)),
+          pw.Text('Category', style: const pw.TextStyle(fontSize: 28)),
+          pw.Text('Prise', style: const pw.TextStyle(fontSize: 28)),
+        ],
+      ),
+      pw.SizedBox(
+        height: 24,
+      ),
+      ...List.generate(
+        invoiceList.length,
+        (index) => pw.Row(
+          mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
+          children: [
+            pw.Text(
+              '${invoiceList[index].name}',
+              style: const pw.TextStyle(fontSize: 20),
             ),
-          )),
+            pw.Text(
+              '${invoiceList[index].category}',
+              style: const pw.TextStyle(fontSize: 20),
+            ),
+            pw.Text(
+              '${invoiceList[index].prise}',
+              style: const pw.TextStyle(fontSize: 20),
+            )
+          ],
         ),
-      ]),
-    ),
+      ),
+    ]),
   ));
   return pdf.save();
 }
