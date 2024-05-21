@@ -45,6 +45,7 @@ class _InvoiceGeneratorState extends State<InvoiceGenerator> {
                           style: const TextStyle(fontSize: 18)),
                       trailing: Text('${invoiceList[index].prise}',
                           style: const TextStyle(fontSize: 18)),
+
                     )),
           ),
         ),
@@ -155,11 +156,11 @@ class _InvoiceGeneratorState extends State<InvoiceGenerator> {
                                         ),
                                       );
                                       Navigator.of(context).pop();
+                                      txtName.clear();
+                                      txtCategory.clear();
+                                      txtPrice.clear();
                                     }
                                   });
-                                  txtName.clear();
-                                  txtCategory.clear();
-                                  txtPrice.clear();
                                 },
                                 child: const Text(
                                   'OK',
@@ -203,7 +204,7 @@ Future<Uint8List> generatePdf() {
         children: [
           pw.Text('Name', style: const pw.TextStyle(fontSize: 28)),
           pw.Text('Category', style: const pw.TextStyle(fontSize: 28)),
-          pw.Text('Prise', style: const pw.TextStyle(fontSize: 28)),
+          pw.Text('Price', style: const pw.TextStyle(fontSize: 28)),
         ],
       ),
       pw.SizedBox(
@@ -216,15 +217,15 @@ Future<Uint8List> generatePdf() {
           children: [
             pw.Text(
               '${invoiceList[index].name}',
-              style: const pw.TextStyle(fontSize: 20),
+              style: const pw.TextStyle(fontSize: 21),
             ),
             pw.Text(
               '${invoiceList[index].category}',
-              style: const pw.TextStyle(fontSize: 20),
+              style: const pw.TextStyle(fontSize: 21),
             ),
             pw.Text(
               '${invoiceList[index].prise}',
-              style: const pw.TextStyle(fontSize: 20),
+              style: const pw.TextStyle(fontSize: 21),
             )
           ],
         ),
