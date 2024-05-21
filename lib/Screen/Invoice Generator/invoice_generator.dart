@@ -45,7 +45,6 @@ class _InvoiceGeneratorState extends State<InvoiceGenerator> {
                           style: const TextStyle(fontSize: 18)),
                       trailing: Text('${invoiceList[index].prise}',
                           style: const TextStyle(fontSize: 18)),
-
                     )),
           ),
         ),
