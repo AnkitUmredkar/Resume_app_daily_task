@@ -464,7 +464,7 @@ class MyApp extends StatelessWidget {
 
 ###
 
-<h1 align="center"> 🔶🔸 6.7 Generate Dynamic Text Field 🔸🔶 </h1>
+<h1 align="center"> 🔶🔸 6.8 Invoice Generator 🔸🔶 </h1>
 
 <div align="center">
   <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/28cacb6c-c379-4a03-86a0-cc68130c54b5"/>
