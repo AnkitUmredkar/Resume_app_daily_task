@@ -463,3 +463,26 @@ class MyApp extends StatelessWidget {
 <h1 align="left"> </h1>
 
 ###
+
+<h1 align="center"> 🔶🔸 6.7 Generate Dynamic Text Field 🔸🔶 </h1>
+
+<div align="center">
+  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/4500c112-6b9c-493b-b757-28676cd68a2d"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img height="550" src="https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/92ea3a2c-6461-4d8a-8a87-9997a66a6d92"/>
+</div>
+
+<h1 align="left"> </h1>
+<div align = "center">
+  <video src = "https://github.com/AnkitUmredkar/Resume_app_daily_task/assets/149374001/f63901a2-b700-4980-99df-1c1088eb5998"></video>
+</div>
+
+<div align = "center">
+<a  href="https://github.com/AnkitUmredkar/Resume_app_daily_task/tree/master/lib/Screen/Invoice%20Generator">-> 📂 Go To Dart File 📂<-</a>
+</div>
+
+###
+
+<h1 align="left"> </h1>
+
+###
